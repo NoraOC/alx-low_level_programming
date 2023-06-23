@@ -2,7 +2,7 @@
 /**
  * print_last_digit - Entry point
  * @n: input number as an inter
- * Return last digit
+ * Return: last digit
  */
 int print_last_digit(int n)
 {
