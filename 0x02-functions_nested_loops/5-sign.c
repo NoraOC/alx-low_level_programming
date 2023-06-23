@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign_ Determines if  the input number greater,equal or less than zero.
+ * print_sign - the input number greater,equal or less than zero.
  *
  * @n: The input number as an integer.
  *
@@ -16,12 +16,12 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putchar(45);
-		return(-1);
+		return (-1);
 	}
 	else
 	{
 		_putchar(48);
 		return (0);
 	}
-	_putchar ('\n');
+	_putchar('\n');
 }
