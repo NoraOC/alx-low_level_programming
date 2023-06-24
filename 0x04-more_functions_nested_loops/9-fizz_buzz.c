@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description: prints th number 1 - 100 w/
+ * Description: prints the number 1 - 100 w/
  * fizz for mutiples of 5,
- * and fizzbuzz for mutiples of both
+ * and FizzBuzz for mutiples of both
  *
  * Return: always 0
  */
@@ -14,11 +14,11 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
-			printf("fuizzbuzz");
+			printf("FizzBuzz");
 		else if (i % 3 == 0)
-			printf("fizz");
+			printf("Fizz");
 		else if (i % 5 == 0)
-			printf("buzz");
+			printf("Buzz");
 		else
 			printf("%i", i);
 		if (i < 100)
